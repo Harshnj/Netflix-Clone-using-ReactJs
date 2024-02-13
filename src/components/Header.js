@@ -3,10 +3,10 @@ import { useNavigate, Link } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
 
-  const clickHandler = (e) => {
-    e.preventDefault();
-    navigate('/login');
-  }
+  // const clickHandler = (e) => {
+  //   e.preventDefault();
+  //   navigate('/login');
+  // }
 
   return(
     <header className="topNav">
